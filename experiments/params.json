@@ -1,0 +1,15 @@
+{
+    "learning_rate": 1e-3,
+    "batch_size": 64,
+    "num_epochs": 100,
+    "hidden_size": 160,
+    "embedding_size": 160,
+    "cnn_num_inputs": 5,
+    "num_channel": [25,25,25,25,25,25,25,25],
+    "dropout": 0.2,
+    "num_time_cov": 4,
+    "num_heads": 4,
+    "source_len": 168,
+    "target_len": 24,
+    "seq_len": 192
+}
